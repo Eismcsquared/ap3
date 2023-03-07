@@ -14,18 +14,6 @@ def average(values):
     avg /= len(values)
     return avg
 
-# public static double average(double[] values) {
-     # double avg = 0;
-     # for (int i = 0; i < values.length; i++) {
-         # avg += values[i];
-     # }
-     # return avg / values.length;
-# }
-
-# public static void main(String[] args) {
-#     double[] arr = new double[]{1, 2, 3};
-#     double a = average(arr);
-# }
 # calculate the standard deviation of the single values from their average
 def standardDeviation(values):
     if len(values) <= 1:
